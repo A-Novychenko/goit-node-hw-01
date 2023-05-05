@@ -1,19 +1,45 @@
-CLI-додаток для роботи з колекцією котактів. Виводить список контактів у вигляді таблиці (console.table)
+# CLI-додаток для роботи з колекцією котактів. Виводить список контактів у вигляді таблиці (console.table)
 
-Команди:
+# Команди:
 
-# Отримати всі контакти
+Отримати всі контакти
 
 node index.js --action list
 
-# Отримати контакт по id
+Отримати контакт по id
 
 node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
 
-# Додати контакт
+Додати контакт
 
 node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
 
-# Видалити контакт
+Видалити контакт
 
 node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
+
+# Команди:
+
+Отримати всі контакти
+
+```json
+node index.js --action list
+```
+
+Отримати контакт по id
+
+```json
+node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
+```
+
+Додати контакт
+
+```json
+node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
+```
+
+Видалити контакт
+
+```json
+node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
+```
